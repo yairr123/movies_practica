@@ -15,8 +15,8 @@
   }
 </script>
 
-<div class="card" style="width: 18rem;">
-<img class="card-img-top" src={coverURL} alt="Card image cap">
+<div class="card">
+  <img src= {coverURL} class="card-img-top" alt="...">
 <div class="card-body">
   <h5 class="card-title">{title}</h5>
   <p class="card-text">{overview}</p>

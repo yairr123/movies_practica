@@ -89,7 +89,7 @@ import { dataset_dev } from "svelte/internal";
 				<div class="row"> 
 					{#if likedMovies.length}
 					{#each likedMovies as movie, i (movie.id)}
-							<div in:fly="{{duration:2000, y: 20}}" out:fly="{{duration:1000, y: -20}}" class="col-5 col-md-6 col-lg-10 p-5">
+							<div in:fly="{{duration:2000, y: 20}}" out:fly="{{duration:1000, y: -20}}" class="col-12 col-md-6 col-lg-4 p-2">
 								<MoviItem
 									like={like(movie.id)}
 									id={movie.id}
