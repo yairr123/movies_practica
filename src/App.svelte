@@ -97,12 +97,14 @@
 
 
 <center >
-	<h1 > Lo nuevo de la semana</h1>
-	<a href="https://www.themoviedb.org/tv/84958-loki">Haz click para descubrir más</a>
+	<h1 > 
+		El cortometraje de la semana
+	</h1>
+	<a href="http://www.caminandes.com/">Haz click para descubrir más</a>
 	<div>
 		<video
-			poster="https://sveltejs.github.io/assets/caminandes-llamigos.jpg"
-			src="https://sveltejs.github.io/assets/caminandes-llamigos.mp4"
+		poster="https://sveltejs.github.io/assets/caminandes-llamigos.jpg"
+		src="https://sveltejs.github.io/assets/caminandes-llamigos.mp4"
 			on:mousemove={handleMousemove}
 			on:mousedown={handleMousedown}
 			bind:currentTime={time}
@@ -116,7 +118,7 @@
 	
 			<div class="info">
 				<span class="time">{format(time)}</span>
-				<span>click anywhere to {paused ? 'play' : 'pause'} / drag to seek</span>
+				<span>haga clic en cualquier lugar para{paused ? 'play' : 'pause'} /arrastrar para buscar</span>
 				<span class="time">{format(duration)}</span>
 			</div>
 		</div>
